@@ -1,0 +1,1 @@
+This project is about Amazon Cognito Login Page with Amplify.
