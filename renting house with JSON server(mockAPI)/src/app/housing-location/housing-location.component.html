@@ -1,0 +1,14 @@
+<section class="listing" >
+    <img
+        class="listing-photo"
+        [src]="housingLocation.photo"
+        alt="Exterior photo of {{housingLocation.name}}"
+        crossorigin="anonymous"
+    />
+    <h2 class="listing-heading" > {{housingLocation.name}} </h2>
+    <div style="display: flex;" >
+        <img [src]="imgUrl" height="15" width="15" style="margin-right: -20px;" />
+        <h2 class="listing-location" > {{housingLocation.city}},{{housingLocation.state}} </h2>
+    </div>
+    <a [routerLink]="['/details', housingLocation.id]">Learn More</a>
+</section>

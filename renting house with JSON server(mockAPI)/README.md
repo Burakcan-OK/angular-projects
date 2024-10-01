@@ -1,0 +1,1 @@
+This project is simple app for renting house. Also JSON server is used with Angular Framework.
